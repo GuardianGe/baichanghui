@@ -1,0 +1,57 @@
+{
+    "data": [{
+        "img": "/build/images/swapperimg1.jpg",
+        "title": "优惠定场地"
+    }, {
+        "img": "/build/images/swapperimg2.jpg",
+        "title": "聚会"
+    }, {
+        "img": "/build/images/swapperimg3.jpg",
+        "title": "会议"
+    }, {
+        "img": "/build/images/swapperimg4.jpg",
+        "title": "培训"
+    }, {
+        "img": "/build/images/swapperimg5.jpg",
+        "title": "团建"
+    }],
+    "data1": [{
+        "img": "/build/images/swapperimg6.jpg",
+        "title": "晚年年会"
+    }, {
+        "img": "/build/images/swapperimg7.jpg",
+        "title": "同事趴"
+    }, {
+        "img": "/build/images/swapperimg8.jpg",
+        "title": "路演"
+    }, {
+        "img": "/build/images/swapperimg9.jpg",
+        "title": "秀场表演"
+    }, {
+        "img": "/build/images/swapperimg10.jpg",
+        "title": "沙龙"
+    }],
+    "data2": [{
+        "img": "/build/images/swapperimg11.jpg",
+        "title": "生日趴"
+    }, {
+        "img": "/build/images/swapperimg12.jpg",
+        "title": "轰趴"
+    }, {
+        "img": "/build/images/swapperimg13.jpg",
+        "title": "主题派对"
+    }, {
+        "img": "/build/images/swapperimg14.jpg",
+        "title": "婚礼"
+    }, {
+        "img": "/build/images/swapperimg15.jpg",
+        "title": "婚宴"
+    }],
+    "data3": [{
+        "img": "/build/images/swapperimg16.jpg",
+        "title": "展会"
+    }, {
+        "img": "/build/images/swapperimg17.jpg",
+        "title": "周边"
+    }]
+}
