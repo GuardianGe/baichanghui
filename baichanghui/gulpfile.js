@@ -157,7 +157,7 @@ gulp.task('copy-images', function () {
 // 侦测 文件变化， 执行相应任务
 gulp.task('watch', function () {
   gulp.watch('./*.html', ['copy-index']);
-  gulp.watch('./images/**/*', ['copy-images']);
+  gulp.watch('images/**/*', ['copy-images']);
   gulp.watch('./src/styles/**/*', ['scss']);
   gulp.watch('./src/scripts/**/*', ['packjs']);
 });
