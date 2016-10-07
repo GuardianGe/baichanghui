@@ -1,0 +1,104 @@
+{
+    "data":[
+        {
+            "img":"../../../images/i1.jpg",
+            "tags":["发布会", "培训"],
+            "price":"￥2800/半天",
+            "sizeSqMeter":"56平米",
+            "sizeHeadcount":"40人",
+            "district":"朝阳区",
+            "businessDistrict":"传媒大学",
+            "fullName":"北京世通国际大厦会议中心"
+        },
+        {
+            "img":"../../../images/i2.jpg",
+            "tags":["讲座", "培训"],
+            "price":"￥2500/半天",
+            "sizeSqMeter":"72平米",
+            "sizeHeadcount":"35人",
+            "district":"朝阳区",
+            "businessDistrict":"潘家园/十里河",
+            "fullName":"北京广西大厦"
+        },
+        {
+            "img":"../../../images/i3.jpg",
+            "tags":["年会", "培训"],
+            "price":"￥200/小时",
+            "sizeSqMeter":"15平米",
+            "sizeHeadcount":"6人",
+            "district":"东城区",
+            "businessDistrict":"东直门/簋街",
+            "fullName":"北京蔓兰酒店"
+        },
+        {
+            "img":"../../../images/i4.jpg",
+            "tags":["Party", "讲座"],
+            "price":"￥1399/半天",
+            "sizeSqMeter":"120平米",
+            "sizeHeadcount":"100人",
+            "district":"朝阳区",
+            "businessDistrict":"望京",
+            "fullName":"纳什空间SPACE•悠乐汇"
+        },
+        {
+            "img":"../../../images/i5.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥500/人",
+            "sizeSqMeter":"1907平米",
+            "sizeHeadcount":"1200人",
+            "district":"东城区",
+            "businessDistrict":"王府井商业区",
+            "fullName":"北京饭店"
+        },
+        {
+            "img":"../../../images/i6.jpg",
+            "tags":["招商推介", "招聘宣讲"],
+            "price":"￥2500/半天",
+            "sizeSqMeter":"36平米",
+            "sizeHeadcount":"20人",
+            "district":"朝阳区",
+            "businessDistrict":"亚运村/国家会议中心",
+            "fullName":"北京紫玉乡村俱乐部"
+        },
+        {
+            "img":"../../../images/i7.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥1200/半天",
+            "sizeSqMeter":"50平米",
+            "sizeHeadcount":"30人",
+            "district":"朝阳区",
+            "businessDistrict":"潘家园/十里河",
+            "fullName":"北京四川五粮液龙爪树宾馆"
+        },
+        {
+            "img":"../../../images/i8.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥2900/天",
+            "sizeSqMeter":"54平米",
+            "sizeHeadcount":"20人",
+            "district":"顺义区",
+            "businessDistrict":"首都机场/新国展",
+            "fullName":"北京国都大饭店"
+        },
+        {
+            "img":"../../../images/i9.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥3000/天",
+            "sizeSqMeter":"50平米",
+            "sizeHeadcount":"30人",
+            "district":"东城区",
+            "businessDistrict":"王府井商业区",
+            "fullName":"北京天伦王朝酒店"
+        },
+        {
+            "img":"../../../images/i10.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥1800/天",
+            "sizeSqMeter":"26平米",
+            "sizeHeadcount":"15人",
+            "district":"朝阳区",
+            "businessDistrict":"国贸CBD",
+            "fullName":"北京艾维克酒店"
+        }
+    ]
+}
