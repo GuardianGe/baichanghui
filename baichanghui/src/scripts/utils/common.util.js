@@ -9,4 +9,5 @@ var common = {
         $el.append(str);
   }
 }
+};
 module.exports = common;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="bigbox">
   <div class="bigbox2">
     <header>
@@ -297,3 +298,17 @@
     </article>
   </div>
 </div>
+=======
+<div class="container">
+    <header>
+        <ul>
+            <li><a href="#">北京</a></li>
+            <li><a href="#">朋友聚会</a></li>
+            <li><a href="#">帮我找</a></li>
+        </ul>
+    </header>
+    <div class="pai">
+
+    </div>
+</div>
+>>>>>>> ecce2f8e45177c10b3708afae5891903e8f877ed

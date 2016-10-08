@@ -25,6 +25,7 @@ var revCollector = require('gulp-rev-collector');
 var sequence = require('gulp-sequence');
 var liu = require('./gulpfile/liu.js');
 var wang = require('./gulpfile/wang.js');
+var peng = require('./gulpfile/peng.js');
 // 启动 webserver
 gulp.task('webserver', function () {
   gulp.src('./')
@@ -36,7 +37,7 @@ gulp.task('webserver', function () {
         path: './'
       },
       livereload: true,
-      middleware:[liu,wang]
+      middleware:[liu,wang,peng]
       // mock 数据
     //   middleware: function (req, res, next) {
     //     var urlObj = url.parse(req.url, true);

@@ -1,0 +1,104 @@
+{
+    "data":[
+        {
+            "img":"../../../images/j21.jpg",
+            "tags":["招商推介", "记者招待"],
+            "price":"￥2000/半天",
+            "sizeSqMeter":"31平米",
+            "sizeHeadcount":"8人",
+            "district":"密云县",
+            "businessDistrict":"密云城区/密云水库",
+            "fullName":"北京海淀永泰福朋喜来登酒店"
+        },
+        {
+            "img":"../../../images/j22.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥3600/天",
+            "sizeSqMeter":"112平米",
+            "sizeHeadcount":"60人",
+            "district":"昌平区",
+            "businessDistrict":"昌平城区/小汤山温泉景区",
+            "fullName":"百川创业营"
+        },
+        {
+            "img":"../../../images/j23.jpg",
+            "tags":["会议", "培训"],
+            "price":"￥1000/半天",
+            "sizeSqMeter":"35平米",
+            "sizeHeadcount":"50人",
+            "district":"海淀区",
+            "businessDistrict":"西客站",
+            "fullName":"赛欧5F咖啡厅"
+        },
+        {
+            "img":"../../../images/j24.jpg",
+            "tags":["婚宴", "讲座"],
+            "price":"￥1750/半天",
+            "sizeSqMeter":"32平米",
+            "sizeHeadcount":"35人",
+            "district":"海淀区",
+            "businessDistrict":"中关村/人民大学",
+            "fullName":"北京港澳中心瑞士酒店"
+        },
+        {
+            "img":"../../../images/j25.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥2000/半天",
+            "sizeSqMeter":"180平米",
+            "sizeHeadcount":"140人",
+            "district":"朝阳区",
+            "businessDistrict":"四惠",
+            "fullName":"北京文津国际酒店"
+        },
+        {
+            "img":"../../../images/j26.jpg",
+            "tags":["招商推介", "招聘宣讲"],
+            "price":"￥2000/半天",
+            "sizeSqMeter":"45平米",
+            "sizeHeadcount":"40人",
+            "district":"朝阳区",
+            "businessDistrict":"国贸CBD",
+            "fullName":"北京金丰元金融主题会所"
+        },
+        {
+            "img":"../../../images/j27.jpg",
+            "tags":["讲座", "婚宴"],
+            "price":"￥5000/天",
+            "sizeSqMeter":"50平米",
+            "sizeHeadcount":"30人",
+            "district":"东城区",
+            "businessDistrict":"地坛",
+            "fullName":"北京丰联国际会馆"
+        },
+        {
+            "img":"../../../images/j28.jpg",
+            "tags":["讲座", "记者招待"],
+            "price":"￥2400/半天",
+            "sizeSqMeter":"54平米",
+            "sizeHeadcount":"20人",
+            "district":"朝阳区",
+            "businessDistrict":"望京",
+            "fullName":"北京华北宾馆"
+        },
+        {
+            "img":"../../../images/j29.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥4000/天",
+            "sizeSqMeter":"50平米",
+            "sizeHeadcount":"30人",
+            "district":"朝阳区",
+            "businessDistrict":"酒仙桥/798艺术园区",
+            "fullName":"北京北苑大酒店"
+        },
+        {
+            "img":"../../../images/j30.jpg",
+            "tags":["讲座", "展览"],
+            "price":"￥1800/天",
+            "sizeSqMeter":"26平米",
+            "sizeHeadcount":"15人",
+            "district":"海淀区",
+            "businessDistrict":"中关村/人民大学",
+            "fullName":"北京鑫海锦江大酒店"
+        }
+    ]
+}

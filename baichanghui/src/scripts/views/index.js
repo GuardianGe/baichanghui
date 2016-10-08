@@ -4,6 +4,7 @@ var str = require('../tpls/index.string');
 var common = require('../utils/common.util.js');
 
 common.append($('body'), str);
+<<<<<<< HEAD
 
 //swiper设置
 var mySwiper = new Swiper('.swiper-container',{
@@ -32,7 +33,10 @@ $.ajax({
   complete:function(){
     $('#listone').find('.imgshow').eq(2).on('tap',function(){
       window.location.href='/build/meeting.html';
-    })
+    });
+    $('#listone').find('.imgshow').eq(1).on('tap',function(){
+      window.location.href='/build/party.html';
+    });
   }
 });
 $.ajax({
@@ -56,3 +60,5 @@ $.ajax({
     common.inner($('#listfour'),html);
   }
 });
+=======
+>>>>>>> ecce2f8e45177c10b3708afae5891903e8f877ed

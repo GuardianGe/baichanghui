@@ -1,0 +1,104 @@
+{
+    "data":[
+        {
+            "img":"../../../images/j1.jpg",
+            "tags":["轰趴", "公司聚会"],
+            "price":"￥1580/天",
+            "sizeSqMeter":"480平米",
+            "sizeHeadcount":"35人",
+            "district":"昌平区",
+            "businessDistrict":"昌平城区",
+            "fullName":"聚龙庄园（昌平香堂）"
+        },
+        {
+            "img":"../../../images/j2.jpg",
+            "tags":["团队扩展", "Party"],
+            "price":"￥2000/半天",
+            "sizeSqMeter":"800平米",
+            "sizeHeadcount":"20人",
+            "district":"海淀区",
+            "businessDistrict":"上地工业园区",
+            "fullName":"大班私房聚会"
+        },
+        {
+            "img":"../../../images/j3.jpg",
+            "tags":["生日", "同学聚会"],
+            "price":"￥1500/半天",
+            "sizeSqMeter":"240平米",
+            "sizeHeadcount":"30人",
+            "district":"朝阳区",
+            "businessDistrict":"建国门",
+            "fullName":"老友聚轰趴聚会"
+        },
+        {
+            "img":"../../../images/j4.jpg",
+            "tags":["团队扩展", "主题派对"],
+            "price":"￥150/人",
+            "sizeSqMeter":"600平米",
+            "sizeHeadcount":"150人",
+            "district":"朝阳区",
+            "businessDistrict":"四惠",
+            "fullName":"心也YEPCLUB高端私人轰趴会馆"
+        },
+        {
+            "img":"../../../images/j5.jpg",
+            "tags":["轰趴", "团队拓展"],
+            "price":"￥2098/天",
+            "sizeSqMeter":"450平米",
+            "sizeHeadcount":"40人",
+            "district":"大兴区",
+            "businessDistrict":"大兴农业观光区",
+            "fullName":"少年派别墅轰趴馆"
+        },
+        {
+            "img":"../../../images/j6.jpg",
+            "tags":["招商推介", "招聘宣讲"],
+            "price":"￥2500/半天",
+            "sizeSqMeter":"36平米",
+            "sizeHeadcount":"20人",
+            "district":"朝阳区",
+            "businessDistrict":"亚运村/国家会议中心",
+            "fullName":"北京紫玉乡村俱乐部"
+        },
+        {
+            "img":"../../../images/j7.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥1200/半天",
+            "sizeSqMeter":"50平米",
+            "sizeHeadcount":"30人",
+            "district":"朝阳区",
+            "businessDistrict":"潘家园/十里河",
+            "fullName":"北京四川五粮液龙爪树宾馆"
+        },
+        {
+            "img":"../../../images/j8.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥2900/天",
+            "sizeSqMeter":"54平米",
+            "sizeHeadcount":"20人",
+            "district":"顺义区",
+            "businessDistrict":"首都机场/新国展",
+            "fullName":"北京国都大饭店"
+        },
+        {
+            "img":"../../../images/j9.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥3000/天",
+            "sizeSqMeter":"50平米",
+            "sizeHeadcount":"30人",
+            "district":"东城区",
+            "businessDistrict":"王府井商业区",
+            "fullName":"北京天伦王朝酒店"
+        },
+        {
+            "img":"../../../images/j10.jpg",
+            "tags":["路演演讲", "记者招待"],
+            "price":"￥1800/天",
+            "sizeSqMeter":"26平米",
+            "sizeHeadcount":"15人",
+            "district":"朝阳区",
+            "businessDistrict":"国贸CBD",
+            "fullName":"北京艾维克酒店"
+        }
+    ]
+}
