@@ -4,7 +4,6 @@ var str = require('../tpls/index.string');
 var common = require('../utils/common.util.js');
 
 common.append($('body'), str);
-<<<<<<< HEAD
 
 //swiper设置
 var mySwiper = new Swiper('.swiper-container',{
@@ -35,6 +34,7 @@ $.ajax({
       window.location.href='/build/meeting.html';
     });
     $('#listone').find('.imgshow').eq(1).on('tap',function(){
+      alert();
       window.location.href='/build/party.html';
     });
   }

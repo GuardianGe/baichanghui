@@ -8,6 +8,5 @@ var common = {
     append: function ($el, str) {
         $el.append(str);
   }
-}
 };
 module.exports = common;

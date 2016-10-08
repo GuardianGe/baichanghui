@@ -44,14 +44,16 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(8);
+	module.exports = __webpack_require__(10);
 
 
 /***/ },
 /* 1 */,
 /* 2 */,
 /* 3 */,
-/* 4 */
+/* 4 */,
+/* 5 */,
+/* 6 */
 /***/ function(module, exports) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -67,35 +69,35 @@
 	    append: function ($el, str) {
 	        $el.append(str);
 	  }
-	}
+	};
 	module.exports = common;
 
 
 
 /***/ },
-/* 5 */,
-/* 6 */,
 /* 7 */,
-/* 8 */
+/* 8 */,
+/* 9 */,
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	__webpack_require__(9);
+	__webpack_require__(11);
 
 
 
 /***/ },
-/* 9 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
 	var define = false;
 
-	var str = __webpack_require__(10);
+	var str = __webpack_require__(12);
 
-	var common = __webpack_require__(4);
+	var common = __webpack_require__(6);
 
 	common.append($('body'), str);
 
@@ -110,7 +112,7 @@
 
 
 /***/ },
-/* 10 */
+/* 12 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"bigbox\">  <article id=\"article\">    <section>      <div class=\"city-tip\">        已开通城市      </div>      <div class=\"list\">        <a href=\"#\" class=\"citys\">          北京          <img src=\"/build/images/place1.jpg\" >        </a>        <a href=\"#\" class=\"citys\">          上海          <img src=\"/build/images/place2.jpg\" >        </a>        <a href=\"#\" class=\"citys\">          深圳          <img src=\"/build/images/place3.jpg\" >        </a>        <a href=\"#\" class=\"citys\">          广州          <img src=\"/build/images/place4.jpg\" >        </a>        <a href=\"#\" class=\"citys\">          杭州          <img src=\"/build/images/place5.jpg\" >        </a>        <a href=\"#\" class=\"citys\">          南京          <img src=\"/build/images/place6.jpg\" >        </a>      </div>      <span class=\"tips\">        我们正在努力开拓更多城市      </span>    </section>    <footer>      <i class=\"iconfont\" id=\"close\">        &#xe608;      </i>    </footer>  </article></div>"
