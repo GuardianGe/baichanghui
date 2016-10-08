@@ -28,6 +28,11 @@ $.ajax({
   success:function(res){
     var html = template('list1',res);
     common.inner($('#listone'),html);
+  },
+  complete:function(){
+    $('#listone').find('.imgshow').eq(2).on('tap',function(){
+      window.location.href='/build/meeting.html';
+    })
   }
 });
 $.ajax({

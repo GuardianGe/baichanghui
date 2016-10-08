@@ -95,6 +95,11 @@
 	  success:function(res){
 	    var html = template('list1',res);
 	    common.inner($('#listone'),html);
+	  },
+	  complete:function(){
+	    $('#listone').find('.imgshow').eq(2).on('tap',function(){
+	      window.location.href='/build/meeting.html';
+	    })
 	  }
 	});
 	$.ajax({
@@ -143,12 +148,6 @@
 	  },
 	    append: function ($el, str) {
 	        $el.append(str);
-	  },
-	  isRetina:function(){
-	      if(window.devicePixelRatio&&window.devicePixelRatio>1&&window.devicePixelRatio<3){
-	          $('header').attr("class","hairline");
-	          $('nav').attr("class","hairline");
-	      }
 	  }
 	}
 	module.exports = common;

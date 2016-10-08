@@ -1,4 +1,6 @@
-module.exports = function (req, res, next) {
+var url = require('url');
+var fs = require('fs');
+var liu = function (req, res, next) {
   var urlObj = url.parse(req.url, true);
   switch (urlObj.pathname) {
     case '/api/meet.php':
@@ -34,3 +36,4 @@ module.exports = function (req, res, next) {
   }
   next();
 }
+module.exports= liu;

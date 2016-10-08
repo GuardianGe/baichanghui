@@ -1,3 +1,5 @@
+var url = require('url');
+var fs = require('fs');
 module.exports=function (req, res, next) {
   var urlObj = url.parse(req.url, true);
   switch (urlObj.pathname) {

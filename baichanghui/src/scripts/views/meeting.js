@@ -8,7 +8,6 @@ $.ajax({
     var html = template('test', res);
 
     common.inner($('#list'), html);
-
   }
 });
 window.onload=function(){
