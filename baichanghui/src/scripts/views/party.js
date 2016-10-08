@@ -11,8 +11,16 @@ $.ajax({
 
     common.inner($('#list'), html);
 
+  },
+  complete:function(){
+    $('#list .imgBox').on('tap',function(){
+      window.location.href='/build/detail.html';
+    })
   }
 });
+$('#back').on('tap',function(){
+  window.location.href="/build/index.html";
+})
 window.onload=function(){
     var scroll=new IScroll("#meeting-iscroll",{
         probeType: 3,
@@ -26,6 +34,11 @@ window.onload=function(){
                 var html = template('testMore', res);
                 common.append($('#list'), html);
                 scroll.refresh();
+            },
+            complete:function(){
+              $('#list .imgBox').on('tap',function(){
+                window.location.href='/build/detail.html';
+              })
             }
         })
     }
@@ -36,6 +49,11 @@ window.onload=function(){
                 var html = template('testMore2', res);
                 common.append($('#list'), html);
                 scroll.refresh();
+            },
+            complete:function(){
+              $('#list .imgBox').on('tap',function(){
+                window.location.href='/build/detail.html';
+              })
             }
         })
     }

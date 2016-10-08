@@ -26,11 +26,10 @@ $.ajax({
     common.inner($('#listone'),html);
   },
   complete:function(){
-    $('#listone').find('.imgshow').eq(2).on('tap',function(){
+    $('#listone').find('.imgshow:nth-child(odd)').on('tap',function(){
       window.location.href='/build/meeting.html';
     });
-    $('#listone').find('.imgshow').eq(1).on('tap',function(){
-      alert();
+    $('#listone').find('.imgshow:nth-child(even)').on('tap',function(){
       window.location.href='/build/party.html';
     });
   }
@@ -40,6 +39,14 @@ $.ajax({
   success:function(res){
     var html = template('list2',res);
     common.inner($('#listtwo'),html);
+  },
+  complete:function(){
+    $('#listone').find('.imgshow:nth-child(odd)').on('tap',function(){
+      window.location.href='/build/meeting.html';
+    });
+    $('#listone').find('.imgshow:nth-child(even)').on('tap',function(){
+      window.location.href='/build/party.html';
+    });
   }
 });
 $.ajax({
@@ -47,6 +54,14 @@ $.ajax({
   success:function(res){
     var html = template('list3',res);
     common.inner($('#listthree'),html);
+  },
+  complete:function(){
+    $('#listone').find('.imgshow:nth-child(odd)').on('tap',function(){
+      window.location.href='/build/meeting.html';
+    });
+    $('#listone').find('.imgshow:nth-child(even)').on('tap',function(){
+      window.location.href='/build/party.html';
+    });
   }
 });
 $.ajax({
@@ -54,7 +69,13 @@ $.ajax({
   success:function(res){
     var html = template('list4',res);
     common.inner($('#listfour'),html);
+  },
+  complete:function(){
+    $('#listone').find('.imgshow:nth-child(odd)').on('tap',function(){
+      window.location.href='/build/meeting.html';
+    });
+    $('#listone').find('.imgshow:nth-child(even)').on('tap',function(){
+      window.location.href='/build/party.html';
+    });
   }
 });
-=======
->>>>>>> ecce2f8e45177c10b3708afae5891903e8f877ed
