@@ -1,9 +1,6 @@
 var str = require('../tpls/meeting.string');
-
 var common = require('../utils/common.util.js');
-
 common.append($('body'), str);
-
 $.ajax({
   url: '/api/meet.php',
   success: function (res) {

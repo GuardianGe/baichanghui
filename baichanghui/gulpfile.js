@@ -23,19 +23,20 @@ var revCollector = require('gulp-rev-collector');
 
 // 引入 gulp-sequence 模块
 var sequence = require('gulp-sequence');
-var gulpfile =
+var liu = require('./gulpfile/liu.js');
+var wang = require('./gulpfile/wang.js');
 // 启动 webserver
 gulp.task('webserver', function () {
   gulp.src('./')
     .pipe(webserver({
       host: 'localhost',
-      port: 8081,
+      port: 80,
       directoryListing: {
         enable: true,
         path: './'
       },
       livereload: true,
-      middleware:require(['gulpfile/liu.js','gulpfile/wang.js'])
+      middleware:[liu,wang]
       // mock 数据
     //   middleware: function (req, res, next) {
     //     var urlObj = url.parse(req.url, true);

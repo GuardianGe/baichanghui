@@ -1,10 +1,9 @@
-module.exports=function (req, res, next) {
+module.exports = function (req, res, next) {
   var urlObj = url.parse(req.url, true);
   switch (urlObj.pathname) {
     case '/api/meet.php':
       res.setHeader('Content-Type', 'application/json');
       fs.readFile('./mock/meeting.json', function (err, data) {
-      fs.readFile('./mock/mock1.json', function (err, data) {
         res.end(data);
       });
       return;
@@ -34,5 +33,4 @@ module.exports=function (req, res, next) {
         return;
   }
   next();
-}
 }
