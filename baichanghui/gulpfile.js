@@ -23,59 +23,60 @@ var revCollector = require('gulp-rev-collector');
 
 // 引入 gulp-sequence 模块
 var sequence = require('gulp-sequence');
-
+var gulpfile =
 // 启动 webserver
 gulp.task('webserver', function () {
   gulp.src('./')
     .pipe(webserver({
       host: 'localhost',
-      port: 80,
+      port: 8081,
       directoryListing: {
         enable: true,
         path: './'
       },
       livereload: true,
-
+      middleware:require(['gulpfile/liu.js','gulpfile/wang.js'])
       // mock 数据
-      middleware: function (req, res, next) {
-        var urlObj = url.parse(req.url, true);
-        switch (urlObj.pathname) {
-          case '/api/meet.php':
-            res.setHeader('Content-Type', 'application/json');
-            fs.readFile('./mock/meeting.json', function (err, data) {
-              res.end(data);
-            });
-            return;
-          case '/api/seeMore.php':
-              res.setHeader('Content-Type', 'application/json');
-              fs.readFile('./mock/more.json', function (err, data) {
-                res.end(data);
-            });
-            return;
-            case '/api/seeMore2.php':
-                res.setHeader('Content-Type', 'application/json');
-                fs.readFile('./mock/more2.json', function (err, data) {
-                  res.end(data);
-              });
-              return;
-          case '/api/choose1.php':
-              res.setHeader('Content-Type', 'application/json');
-              fs.readFile('./mock/choose1.json', function (err, data) {
-                res.end(data);
-            });
-            return;
-            case '/api/choose2.php':
-                res.setHeader('Content-Type', 'application/json');
-                fs.readFile('./mock/choose2.json', function (err, data) {
-                  res.end(data);
-              });
-              return;
-        }
-        next();
-      }
-    }))
+    //   middleware: function (req, res, next) {
+    //     var urlObj = url.parse(req.url, true);
+    //     switch (urlObj.pathname) {
+    //       case '/api/meet.php':
+    //         res.setHeader('Content-Type', 'application/json');
+    //         fs.readFile('./mock/meeting.json', function (err, data) {
+    //         fs.readFile('./mock/mock1.json', function (err, data) {
+    //           res.end(data);
+    //         });
+    //         return;
+    //       case '/api/seeMore.php':
+    //           res.setHeader('Content-Type', 'application/json');
+    //           fs.readFile('./mock/more.json', function (err, data) {
+    //             res.end(data);
+    //         });
+    //         return;
+    //         case '/api/seeMore2.php':
+    //             res.setHeader('Content-Type', 'application/json');
+    //             fs.readFile('./mock/more2.json', function (err, data) {
+    //               res.end(data);
+    //           });
+    //           return;
+    //       case '/api/choose1.php':
+    //           res.setHeader('Content-Type', 'application/json');
+    //           fs.readFile('./mock/choose1.json', function (err, data) {
+    //             res.end(data);
+    //         });
+    //         return;
+    //         case '/api/choose2.php':
+    //             res.setHeader('Content-Type', 'application/json');
+    //             fs.readFile('./mock/choose2.json', function (err, data) {
+    //               res.end(data);
+    //           });
+    //           return;
+    //     }
+    //     next();
+    //   }
+  // }
+}));
 });
-
 // css 预处理 和 压缩
 gulp.task('scss', function () {
   gulp.src('./src/styles/usage/page/*.scss')

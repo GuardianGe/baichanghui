@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'iconfont';
   src: url('//at.alicdn.com/t/font_1475554322_8332882.eot'); /* IE9*/
@@ -11,7 +12,7 @@
   font-family: iconfont;
   font-size: 14px;
 
-  
+
 }
 .iconfont2{
   font-family: iconfont;
@@ -21,3 +22,28 @@
   font-family: iconfont;
   font-size: 8px;
 }
+html,body{
+  height:100%;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('http://at.alicdn.com/t/font_1475829844_6265068.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/font_1475829844_6265068.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/font_1475829844_6265068.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/font_1475829844_6265068.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/font_1475829844_6265068.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+@font-face {
+    font-family: 'iconfont';
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    src:url('/build/images/iconfont/iconfont.woff') format('woff'),
+    /* chrome、firefox */
+     url('/build/images/iconfont/iconfont.ttf') format('truetype');
+}
+// .iconfont {
+//   font-family: iconfont;
+//
+// }

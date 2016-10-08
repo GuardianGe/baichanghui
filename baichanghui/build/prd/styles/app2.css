@@ -669,357 +669,60 @@ html, body {
   font-family: iconfont; }
 
 .bigbox {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  position: relative; }
-  .bigbox .bigbox2 {
-    width: 100%; }
-  .bigbox header {
-    height: 1.32rem;
-    width: 100%;
-    padding-top: 0.15rem;
-    padding-bottom: 0.12rem;
-    background: url("/build/images/header-background.jpg") no-repeat center;
-    background-size: cover;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between; }
-    .bigbox header div:nth-child(1) {
-      height: 0.27rem;
-      width: 100%;
-      padding: 0 .1rem 0 .15rem;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: row;
-      flex-direction: row;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      justify-content: space-between; }
-      .bigbox header div:nth-child(1) a {
-        font-size: .17rem;
-        font-weight: 700;
-        color: #333; }
-      .bigbox header div:nth-child(1) span {
-        display: block;
-        font-size: .27rem;
-        font-weight: 700;
-        color: #343434; }
-      .bigbox header div:nth-child(1) div {
-        width: .62rem;
-        height: .27rem;
-        background: #000;
-        border-radius: .2rem;
-        text-align: center;
-        overflow: hidden;
-        line-height: .27rem;
-        color: #fff; }
-    .bigbox header .search {
-      width: 95%;
-      display: block;
-      height: .4rem;
-      line-height: .4rem;
-      border-radius: .2rem;
-      border: .02rem solid #FD5F6E;
-      text-align: center;
-      background: #fff;
-      font-size: .14rem;
-      color: #999; }
-  .bigbox .swiper-container {
-    width: 100%;
-    height: 1.08rem;
-    margin-bottom: .11rem;
-    position: relative; }
-    .bigbox .swiper-container .swiper-wrapper {
-      width: 100%;
-      height: 1.08rem; }
-      .bigbox .swiper-container .swiper-wrapper .swiper-slide {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        -webkit-justify-content: space-around;
-        justify-content: space-around;
-        background: #fff; }
-        .bigbox .swiper-container .swiper-wrapper .swiper-slide:nth-child(4) {
-          -webkit-box-pack: start;
-          -webkit-justify-content: flex-start;
-          justify-content: flex-start; }
-        .bigbox .swiper-container .swiper-wrapper .swiper-slide .imgshow {
-          padding: .17rem 0 .25rem;
-          width: .64rem;
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
-          flex-direction: column;
-          -webkit-box-align: center;
-          -webkit-align-items: center;
-          align-items: center;
-          -webkit-box-pack: justify;
-          -webkit-justify-content: space-between;
-          justify-content: space-between; }
-          .bigbox .swiper-container .swiper-wrapper .swiper-slide .imgshow img {
-            width: .42rem;
-            height: .42rem; }
-          .bigbox .swiper-container .swiper-wrapper .swiper-slide .imgshow span {
-            font-size: .12rem;
-            color: #000; }
-    .bigbox .swiper-container .swiper-pagination {
-      position: absolute;
-      bottom: .03rem; }
-      .bigbox .swiper-container .swiper-pagination .swiper-pagination-bullet {
-        font-size: .14rem;
-        height: .06rem;
-        width: .06rem;
-        background: #f2626f; }
-  .bigbox section {
-    width: 100%;
-    height: 1.8rem;
+  height: 100%; }
+  .bigbox article {
     background: #fff;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    .bigbox section div {
-      position: absolute;
-      left: .15rem;
-      top: 50%;
-      margin-top: -.21rem;
-      width: 70%;
-      height: .42rem; }
-    .bigbox section h1 {
-      font-size: .17rem;
-      line-height: .26rem;
-      overflow: hidden;
-      font-weight: 400; }
-    .bigbox section p {
-      font-size: .12rem;
-      line-height: .16rem;
-      color: #666;
-      font-weight: 400; }
-    .bigbox section a {
-      position: relative;
-      width: 50%;
-      padding: .02rem .03rem .03rem .02rem;
-      height: .90rem; }
-      .bigbox section a:nth-child(1) {
-        background: url("/build/images/section1.png") no-repeat;
-        background-size: .6rem .6rem;
-        background-position: 90% center;
-        border-right: 1px solid #ccc;
-        border-bottom: 1px solid #ccc; }
-        .bigbox section a:nth-child(1) h1 {
-          color: #c80110; }
-      .bigbox section a:nth-child(2) {
-        background: url("/build/images/section2.png") no-repeat;
-        background-size: .6rem .6rem;
-        background-position: 90% center;
-        border-bottom: 1px solid #ccc; }
-        .bigbox section a:nth-child(2) h1 {
-          color: #f4610d; }
-      .bigbox section a:nth-child(3) {
-        background: url("/build/images/section3.png") no-repeat;
-        background-size: .6rem .6rem;
-        background-position: 90% center;
-        border-right: 1px solid #ccc; }
-        .bigbox section a:nth-child(3) h1 {
-          color: #a75701; }
-      .bigbox section a:nth-child(4) {
-        background: url("/build/images/section4.png") no-repeat;
-        background-size: .6rem .6rem;
-        background-position: 90% center; }
-        .bigbox section a:nth-child(4) h1 {
-          color: #2758ba; }
-  .bigbox .article1 {
-    height: 2.77rem;
-    margin-top: .1rem;
-    margin-bottom: .11rem;
-    background: #fff; }
-    .bigbox .article1 .div1 {
-      height: 1.67rem;
-      width: 100%;
-      margin-left: .16rem; }
-      .bigbox .article1 .div1 img {
-        width: 85%;
-        height: 1.67rem; }
-      .bigbox .article1 .div1 span {
-        height: .5rem;
-        line-height: .46rem;
-        color: #000;
-        font-size: .14rem;
-        display: block; }
-    .bigbox .article1 .spanBigTitle {
-      height: .6rem;
-      line-height: .6rem;
-      color: #000;
-      padding: 0 .16rem;
-      font-size: .17rem; }
-    .bigbox .article1 .swiper-container1 {
-      height: 2.17rem;
-      width: 100%; }
-      .bigbox .article1 .swiper-container1 .swiper-wrapper {
-        height: 2.17rem; }
-        .bigbox .article1 .swiper-container1 .swiper-wrapper .width85 {
-          width: 85%;
-          padding-right: .07rem; }
-          .bigbox .article1 .swiper-container1 .swiper-wrapper .width85 .imga {
-            width: 100%;
-            display: block;
-            height: 2.17rem; }
-
-.article2 {
-  background: #fff;
-  width: 100%;
-  height: auto; }
-  .article2 .show-more {
-    height: .8rem;
-    display: block;
-    color: #999;
-    padding: .14rem 0 .14rem .8rem;
-    position: relative;
-    background: url("/build/images/footer-background.png") no-repeat;
-    background-size: .45rem .45rem;
-    background-position: .16rem center; }
-    .article2 .show-more .more-title {
-      display: block;
-      font-size: .16rem;
-      line-height: .30rem;
-      color: #000; }
-    .article2 .show-more .more-tip {
-      display: block;
-      font-size: .12rem;
-      line-height: .14rem;
-      color: #999;
-      font-style: italic; }
-  .article2 .article2-title {
-    font-size: .17rem;
-    color: #000;
-    padding: 0 .16rem;
-    line-height: .60rem; }
-  .article2 a {
-    display: block;
-    height: 2.81rem;
-    overflow: hidden;
-    position: relative; }
-    .article2 a img {
-      height: 100%;
-      width: auto;
-      position: absolute;
-      left: -.4rem; }
-    .article2 a .item-info {
-      height: .84rem;
-      background: #fff;
-      position: absolute;
-      width: 100%;
-      left: 0;
+    height: 100%; }
+    .bigbox article section {
+      padding-top: .5rem;
+      padding-bottom: 1rem; }
+      .bigbox article section .city-tip {
+        font-size: .12rem;
+        line-height: .28rem;
+        margin: 0 .18rem;
+        color: #666; }
+      .bigbox article section .list {
+        padding: 0 .18rem;
+        background: #fff;
+        position: relative;
+        margin-bottom: .1rem; }
+        .bigbox article section .list::before {
+          position: absolute;
+          left: 0;
+          width: 200%;
+          top: -.005rem;
+          border-top: 1px solid #ccc;
+          content: ""; }
+        .bigbox article section .list .citys {
+          font-size: .22rem;
+          padding: .25rem .7rem .25rem 0;
+          margin: 0;
+          position: relative;
+          line-height: .22rem;
+          color: #333;
+          display: block;
+          border-bottom: 1px solid #ccc; }
+          .bigbox article section .list .citys img {
+            position: absolute;
+            width: .54rem;
+            height: .7rem;
+            right: .2rem;
+            bottom: 0; }
+      .bigbox article section .tips {
+        font-size: .12rem;
+        display: block;
+        width: 100%;
+        color: #666;
+        text-align: center;
+        margin-top: .35rem; }
+    .bigbox article footer {
+      position: fixed;
       bottom: 0;
-      padding: 0 .12rem; }
-      .article2 a .item-info .mask {
-        height: .5rem;
-        width: 100%;
-        display: block;
-        left: 0;
-        bottom: .84rem;
-        position: absolute;
-        background: -webkit-linear-gradient(top, rgba(34, 34, 34, 0), rgba(34, 34, 34, 0.5)); }
-      .article2 a .item-info .heart {
-        position: absolute;
-        right: .12rem;
-        bottom: .95rem;
-        color: #fff;
-        font-size: .22rem; }
-      .article2 a .item-info .functionallist {
-        position: absolute;
-        left: .12rem;
-        top: -.4rem; }
-        .article2 a .item-info .functionallist .item {
-          color: #fff;
-          background: #333;
-          opacity: .85;
-          line-height: .25rem;
-          height: .25rem;
-          padding: 0 .06rem;
-          margin-left: .05rem;
-          display: inline-block;
-          border-radius: .04rem;
-          font-size: .12rem; }
-      .article2 a .item-info .item-name {
-        font-size: .16rem;
-        width: 100%;
-        padding: .08rem .08rem .06rem 0;
-        display: block;
-        color: #000;
-        line-height: .2rem;
-        overflow: hidden; }
-      .article2 a .item-info .price {
-        display: block;
-        color: #f2626f;
-        height: .2rem;
-        position: absolute;
-        top: .06rem;
-        padding: 0;
-        right: .12rem;
-        font-size: .18rem; }
-        .article2 a .item-info .price .price-tips {
-          font-size: .12rem;
-          color: #f2626f;
-          padding: 0; }
-      .article2 a .item-info .item-tips {
-        font-size: .14rem;
-        color: #999;
-        display: block;
-        padding-bottom: .03rem;
-        line-height: .19rem;
-        padding: 0; }
-        .article2 a .item-info .item-tips i {
-          font-size: .14rem;
-          color: #999;
-          margin-right: .07rem; }
-      .article2 a .item-info .match {
-        position: absolute;
-        right: .12rem;
-        height: auto;
-        bottom: .08rem;
-        color: #333;
-        font-size: .14rem; }
-        .article2 a .item-info .match .number {
-          color: #f2626f; }
-      .article2 a .item-info .fangkuai {
-        position: absolute;
-        height: .11rem;
-        width: .11rem;
-        display: block;
-        transform: rotate(45deg);
-        top: -.05rem;
-        left: .45rem;
-        background: #fff; }
+      padding: .24rem 0;
+      width: 100%;
+      background: #7f7f7f;
+      text-align: center;
+      background: -webkit-linear-gradient(top, rgba(247, 247, 247, 0) 0, rgba(247, 247, 247, 0.5) 25%, #f7f7f7 40%, #f7f7f7); }
+      .bigbox article footer i {
+        font-size: .38rem;
+        color: #343434; }
