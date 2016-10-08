@@ -1,0 +1,9 @@
+<div class="header">
+  <i class="header_i"></i>
+  <div class="header_One">
+  <span class="header_spanOne">下载百场汇APP</span><br/>
+  <span class="header_spanTwo">客户享受更多功能更多优惠</span>
+</div>
+    <b class="iconfont">&#xe64f;</b>
+      <a href="#">立即下载</a>
+</div>

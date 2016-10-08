@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.article_one	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^.article_one{$/;"	function	line:1
+h2	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  h2{$/;"	function	line:7
+.article_span	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .article_span{$/;"	function	line:14
+&:after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^    &:after{$/;"	function	line:19
+.article_span:last-child	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .article_span:last-child{$/;"	function	line:27
+.article_span:last-child:after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .article_span:last-child:after{$/;"	function	line:30
+h5	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  h5{$/;"	function	line:33
+.article_adress	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .article_adress{$/;"	function	line:41
+.mapimgOdiv	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .mapimgOdiv{$/;"	function	line:47
+.mapimg	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^    .mapimg{$/;"	function	line:50
+.article_Two	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^.article_Two{$/;"	function	line:56
+.yuan	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .yuan{$/;"	function	line:60
+.yuan:after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .yuan:after{$/;"	function	line:71
+.pay	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .pay{$/;"	function	line:85
+a	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^    a{$/;"	function	line:90
+.article_Three	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^.article_Three{$/;"	function	line:104
+span	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span{$/;"	function	line:109
+span:before	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:before{$/;"	function	line:113
+span:nth-child(1):before	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(1):before{$/;"	function	line:118
+span:nth-child(2):before	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(2):before{$/;"	function	line:122
+span:nth-child(3):before	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(3):before{$/;"	function	line:126
+span:after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:after{$/;"	function	line:130
+span:nth-child(1):after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(1):after{$/;"	function	line:139
+span:nth-child(2):after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(2):after{$/;"	function	line:142
+span:nth-child(3):after	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(3):after{$/;"	function	line:145
+.article_Four	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^.article_Four{$/;"	function	line:151
+.article_Four_img	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  .article_Four_img{$/;"	function	line:154
+img	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^    img{$/;"	function	line:158
+span	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span{$/;"	function	line:164
+span:nth-child(2)	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(2){$/;"	function	line:167
+span:nth-child(5)	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(5){$/;"	function	line:172
+span:nth-child(6)	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(6){$/;"	function	line:179
+span:nth-child(7)	D:\BaiChangHui开发\baichanghui\src\styles\tpls\section.scss	/^  span:nth-child(7){$/;"	function	line:184
